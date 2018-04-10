@@ -6,8 +6,6 @@ describe 'multiples' do
 		@mb = Multiples.new
 	end
 
-
-
 	it 'should list the number between 1 and 10 if it is a multiple of 3' do
 		@mb.range_of_multiple(100)
 		expect(@mb.multiples_array[0]).to eq 3
