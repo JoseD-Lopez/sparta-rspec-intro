@@ -17,7 +17,7 @@ Lastly we covered type comparision expect(variable).to with the be_a(type sought
 
 #Rspec calculator 
 
-## created the folder rspec_matchers to hold the code for our behaviour driven development BBD specifications of a calculator.
+## Created the folder rspec_matchers to hold the code for our behaviour driven development BBD specifications of a calculator.
 
 The lib folder holds the tests methods.
 
@@ -25,6 +25,24 @@ The spec folder holds the specification which outlines what to test for and the 
 
 Run through of how to make a test:
 To create new tests create a specification of a test which you would like to test for in the calc_engine_spec.rb file making sure that you use the method call for the method that will test the specification in the calc_engine.rb file. 
-Then to test to see if the method matches the specification go to the terminal and run rspec on the terminal making sure that you are in the rspec_calculator when you run it. 
+Then to test to see if the method matches the specification go to the terminal and run rspec on the terminal making sure that you are in the rspec_calculator when you run it.
+
+#Project Euler
+
+##Problem 1 
+
+The over all process was to: Find the sum of all the multiples of 3 or 5 below 1000.
+
+The first tests are for outputs of multiple of 3 and 5 below 100.
+
+The second test is to find the sum of these multiples below 1000. 
+
+##Problem 2
+
+I got a standard fibonacci sequence. 
+Next step would be to find the even values sum.  
+ 
+
+
 
 
