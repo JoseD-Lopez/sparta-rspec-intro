@@ -11,13 +11,13 @@ describe 'fibonacci' do
 	 end
 
 	it 'should respond with a total of 231 for the first 10 terms of the fib length' do
-		@fb.fibonacci_length(10)
-		expect(@fb.fibonacci_array.sum).to eq 231
+		@fb.fibonacci_length(15)
+		expect(@fb.fibonacci_array.sum).to eq 2582
 	end
 
-	it 'should respond 34 for the sum of all even numbers from a fib number of length 10' do
-		@fb.fibonacci_length(10)
+	it 'should respond 1089154 for the sum of all even numbers from a fib number of length 10' do
+		@fb.fibonacci_length(31)
 		@fb.even_number_total_value
-		expect(@fb.even_number_array.sum).to eq 44
+		expect(@fb.even_number_array.sum).to eq 1089154
 	end
 end
