@@ -1,31 +1,17 @@
 class Fibonacci
-    attr_accessor :fibonacci_array
+    attr_accessor :fibonacci_array, :even_number_array
 
     def initialize
-        @fibonacci_array = []
+        @fibonacci_array = [1,2,3]
+        @even_number_array = []
     end
 
-
-    def fibonacci(n)
-    (0..n).each do |n|
-        if n  <  2
-            @fibonacci_array << n
-            else
-                @fibonacci_array << @fibonacci_array[-1] + @fibonacci_array[-2]
-            end
-        end
-        @fibonacci_array.last
-        # puts @fibonacci_array
+    def fibonacci_length(n)
+          fibonacci_array << fibonacci_array[-1] + fibonacci_array[-2] while fibonacci_array.length < n
     end
 
-    # def sum_of_total 
-
-    #   x = @fibonacci_array.length
-    #   (0..x).each do |x|
-    #       if @fibonacci_array[x] % 2 == 0
-    #        puts @fibonacci_array[x]
-    #       end
-
-    #   end
-    # end
+    def even_number_total_value
+      fibonacci_array.each do |i|
+        even_number_array << i if (i % 2).zero? end
+    end
 end
